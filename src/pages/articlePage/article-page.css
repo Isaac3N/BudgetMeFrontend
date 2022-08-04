@@ -1,0 +1,56 @@
+.budgetme-blog-heading h2 {
+	font-size: 42px;
+	line-height: 50px;
+	font-family: var(--font-family);
+	font-weight: 800;
+	align-items: center;
+	text-align: center;
+}
+
+.paginationBttns {
+	height: 40px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.paginationBttns a {
+	padding: 5px;
+	margin: 5px;
+	border-radius: 4px;
+	border: 1px solid #ff8a71;
+	color: #ff8a71;
+	cursor: pointer;
+}
+
+.paginationBttns a:hover {
+	color: white;
+	background-color: #ff8a71;
+}
+
+.paginationActive a {
+	color: white;
+	background-color: #ff8a71;
+}
+
+.paginationDisabled a {
+	color: #ff8a71;
+	background-color: #ff8a71;
+}
+
+.budgetme-blog-container-groupB {
+	color: #ff8a71;
+}
+
+@media screen and (max-width: 700px) {
+	.budgetme-blog-heading h2 {
+		font-size: 36px;
+		line-height: 42px;
+	}
+
+	.paginationBttns a {
+		padding: 2px;
+		margin: 2px;
+	}
+}

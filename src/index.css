@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--font-family: "Manrope", sans-serif;
+
+	--gradient-text: linear-gradient(
+		90deg,
+		rgba(0, 255, 235, 1) 0%,
+		rgba(7, 58, 187, 1) 100%
+	);
+
+	--gradient-bar: linear-gradient(
+		90deg,
+		rgba(0, 255, 235, 1) 0%,
+		rgba(7, 58, 187, 1) 100%
+	);
+
+	--color-bg: #fff;
+	--color-footer: #031b34;
+	--color-blog: #042c54;
+	--color-text: #03a9f4;
+	--color-subtext: #ff8a71;
+}
